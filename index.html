@@ -226,7 +226,7 @@ ruby{ruby-position:over}ruby rt,.sj-option-jp rt,.quiz-option-text rt,.sentence-
 .image-dialog{width:96vw;max-width:1400px;max-height:94dvh}.image-viewport{overflow:auto;max-height:72dvh;overscroll-behavior:contain;touch-action:pan-x pan-y pinch-zoom}.image-viewport img{display:block;width:100%;max-width:none;height:auto}.image-viewport.zoomed img{width:200%}
 .image-dialog .dialog-heading{flex-wrap:wrap}.image-dialog p{font-size:13px;margin:8px 0}
 @media(max-width:740px){
- :root{--mobile-nav-height:62px;--mobile-action-height:68px}
+ :root{--mobile-nav-height:54px;--mobile-action-height:60px}
  html{scroll-padding-bottom:calc(150px + env(safe-area-inset-bottom,0px))}
  body{margin:0}.layout{padding:12px 12px calc(82px + env(safe-area-inset-bottom,0px));max-width:100%;box-sizing:border-box}
  body.mobile-practice .layout{padding-bottom:calc(156px + env(safe-area-inset-bottom,0px))}
@@ -251,11 +251,14 @@ ruby{ruby-position:over}ruby rt,.sj-option-jp rt,.quiz-option-text rt,.sentence-
  .sj-option-translation{font-size:14px;line-height:1.75;margin:10px 0 0;color:#58697d}.choice-gloss{font-size:14px;line-height:1.75}
  .feedback-result{font-size:15px}.feedback-result summary{min-height:44px;padding:10px 0;box-sizing:border-box}
  .mobile-actionbar{position:fixed;bottom:calc(var(--mobile-nav-height) + env(safe-area-inset-bottom,0px));left:0;right:0;z-index:31;margin:0!important;padding:9px 12px;min-height:var(--mobile-action-height);box-sizing:border-box;background:#fff;border-top:1px solid #d8e2ef;display:flex!important;gap:8px;box-shadow:0 -3px 12px #17304e0b}
- .mobile-actionbar .btn{min-height:48px;flex:1;margin:0;font-size:16px;white-space:nowrap}.mobile-actionbar .btn.ghost{flex:0 0 100px;padding:8px;font-size:13px}
+ .mobile-actionbar .btn{min-height:44px;flex:1;margin:0;font-size:16px;white-space:nowrap}.mobile-actionbar .btn.ghost{flex:0 0 100px;padding:8px;font-size:13px}
  .mobile-nav{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(4,1fr);height:calc(var(--mobile-nav-height) + env(safe-area-inset-bottom,0px));padding:0 8px env(safe-area-inset-bottom,0px);box-sizing:border-box;background:#f8faff;border-top:1px solid #d8e2ef;z-index:32}
  .mobile-nav button{border:0;background:transparent;color:#52657c;font:inherit;font-size:13px;min-height:48px;border-radius:10px;margin:5px 2px;font-weight:650}.mobile-nav button[aria-current=page]{color:#2456aa;background:#e7effe}
  .foot{font-size:11px;margin-top:20px;line-height:1.6}.bigjp{font-size:30px;line-height:2.2}.sentence-jp{font-size:20px;line-height:2.45}
- .tablewrap{max-height:65dvh}.vocab td{line-height:2}.select,input{font-size:16px}
+ .tablewrap{max-height:none}.vocab td{line-height:2}.select,input{font-size:16px}
+ .mobile-quick-parts{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;margin:0 0 12px;padding:2px 1px 6px;scrollbar-width:thin}.mobile-quick-parts .btn{flex:0 0 auto;min-height:44px;padding:8px 13px}
+ .sj-answer-row>.choice{padding-right:12px}.sj-option-jp:before{content:"";float:right;width:44px;height:48px}.sj-option-jp{line-height:2.2}.sj-answer-row>.choice{line-height:2.2}
+ .mobile-nav button{min-height:44px;margin:4px 2px}.mobile-actionbar{padding:7px 12px}
 }
 </style><style>.vocab-view-tabs{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}.vocab-view-tabs button{min-height:44px;flex:1;white-space:nowrap;padding:10px}.contrast-filter{display:flex;align-items:center;gap:12px;margin:14px 0}.contrast-filter select{font-size:16px;min-height:44px;max-width:290px;min-width:0}.antonym-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px}.antonym-pair{margin:0!important;min-width:0}.contrast-words{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.contrast-words>div{min-width:0;padding:12px;background:#f4f7fc;border-radius:12px}.contrast-jp{font-size:24px;line-height:2.5;overflow-wrap:anywhere}.contrast-words p{font-size:15px}.contrast-words .btn{min-height:44px;padding:8px;margin:3px 0;font-size:13px}.contrast-examples summary{cursor:pointer;min-height:44px;display:flex;align-items:center;margin-top:12px}.contrast-example-jp{font-size:18px;line-height:2.5}.contrast-note{background:#f3f6fc;padding:12px;border-radius:8px;font-size:14px;line-height:1.8}.two-card-practice{max-width:760px;margin:auto}.card-korean{font-size:28px;margin:22px 0;text-align:center}.two-card-options{display:grid;grid-template-columns:1fr 1fr;gap:12px}.two-card-options>div{min-width:0}.word-pick{width:100%;min-height:150px;padding:22px 10px;border:2px solid #d4dfef;border-radius:16px;background:white;color:#17304e;cursor:pointer;font:inherit;font-size:24px;line-height:2.7;overflow-wrap:anywhere}.word-pick:hover:not(:disabled){background:#edf3ff;border-color:#3e66b7}.word-pick:disabled{opacity:1;color:#17304e;cursor:default}.word-pick.correct{background:#e6f5ed;border-color:#23855d}.word-pick.wrong{background:#fff0f1;border-color:#d34652}.card-word-meaning{display:block;font-size:14px;line-height:1.7;margin-top:12px}.two-card-options .btn{width:100%;min-height:44px;margin-top:6px}.word-pick:focus-visible{outline:3px solid #315fb9;outline-offset:3px}.card-answer-result{margin-top:18px;line-height:1.8}.two-card-practice>.actions .btn{min-height:48px;width:100%}.card-round-summary{max-width:760px;margin:auto}
 @media(max-width:740px){.vocab-view-tabs{gap:5px}.vocab-view-tabs .btn{font-size:13px;padding:10px 6px}.antonym-pair{padding:14px}.contrast-words{gap:8px}.contrast-words>div{padding:8px}.contrast-jp,.word-pick{font-size:21px}.word-pick{min-height:145px;padding:20px 8px}.two-card-practice{padding:14px}.contrast-filter{font-size:14px}.contrast-filter select{flex:1}.card-korean{font-size:25px}.card-answer-result .btn{min-width:44px;min-height:44px}}
@@ -1243,7 +1246,17 @@ document.addEventListener('change',e=>{if(e.target.id==='antonym-category'){anto
 // Enhance existing markup without replacing question state or localStorage.
 const mobileBaseSection=section;
 let mobileLastQuestion='';
-section=function(content){mobileBaseSection(content);if(typeof window.matchMedia==='function')enhanceStudyLayout();};
+function studyViewKey(){return tab==='sjpt'?`sj:${sjMode}:${sjQuestion?.id}`:tab==='quiz'?`quiz:${q?.w?.id}:${q?.actual}:${q?.kind}`:tab==='vocab'?`vocab:${vocabView}`:tab;}
+function studyDetailKey(detail){const pair=detail.closest('article')?.querySelector('[data-pair-practice]')?.dataset.pairPractice;return (pair||'')+':'+detail.className+':'+detail.querySelector('summary')?.textContent;}
+section=function(content){
+ if(typeof window.matchMedia!=='function'){mobileBaseSection(content);return;}
+ const app=document.getElementById('app'),same=app.dataset.viewKey===studyViewKey(),y=window.scrollY;
+ const expanded=new Map(same?[...app.querySelectorAll('details')].map(d=>[studyDetailKey(d),d.open]):[]);
+ const settingsOpen=app.querySelector('.mobile-settings')?.open;
+ mobileBaseSection(content);enhanceStudyLayout();app.dataset.viewKey=studyViewKey();
+ if(same){app.querySelectorAll('details').forEach(d=>{const open=expanded.get(studyDetailKey(d));if(open!==undefined)d.open=open;});window.scrollTo(0,y);}
+ if(settingsOpen&&app.querySelector('.mobile-settings'))app.querySelector('.mobile-settings').open=true;
+};
 function enhanceStudyLayout(){
  const app=document.getElementById('app'),mobile=window.matchMedia('(max-width:740px)').matches;
  const practicing=tab==='sjpt'||tab==='quiz';
@@ -1265,13 +1278,14 @@ function enhanceStudyLayout(){
   const oldHead=app.firstElementChild;if(oldHead)oldHead.classList.add('mobile-replaced');
   if(tab==='sjpt'){
    for(const e of app.querySelectorAll(':scope > .sub'))e.classList.add('mobile-replaced');
-   for(const e of app.querySelectorAll('.sj-modebar,.sj-parts'))settings.append(e);
+   for(const e of app.querySelectorAll('.sj-modebar'))settings.append(e);
+   const parts=app.querySelector('.sj-parts');if(parts){parts.classList.add('mobile-quick-parts');app.querySelector('.sj-card').before(parts);}
    const listen=app.querySelector('[data-sj-tts]');if(listen){listen.textContent='▶ 질문 듣기';tools.append(listen);}
    const furi=app.querySelector('[data-sj-furigana]');if(furi){furi.textContent=sjFuriganaVisible?'후리가나 켜짐':'후리가나 켜기';furi.classList.toggle('reading-on',sjFuriganaVisible);furi.setAttribute('aria-pressed',String(sjFuriganaVisible));tools.append(furi);}
    const transcript=app.querySelector('[data-sj-transcript]');if(transcript)tools.append(transcript);
    for(const row of app.querySelectorAll('.sj-audio-row'))row.remove();
    app.querySelector('.sj-card').prepend(tools);
-   const actions=app.querySelector('.sj-card > .actions');if(actions)actions.classList.add('mobile-actionbar');
+   const actions=app.querySelector('.sj-card > .actions');if(actions){actions.classList.add('mobile-actionbar');if(sjChecked){actions.querySelector('.ghost')?.remove();actions.insertAdjacentHTML('beforeend','<button class="btn ghost" data-show-feedback="1">해설 보기</button>');}}
   }else{
    const controls=app.querySelector('.quiz-controls');
    const furi=controls?.querySelector('[data-quiz-furigana]');if(furi){furi.textContent=quizFuriganaVisible?'후리가나 켜짐':'후리가나 켜기';furi.classList.toggle('reading-on',quizFuriganaVisible);tools.append(furi);}
@@ -1281,7 +1295,7 @@ function enhanceStudyLayout(){
   settings.insertAdjacentHTML('beforeend','<button class="btn ghost" data-mobile-learn="1">다른 학습 선택</button><button class="btn ghost" data-go="settings">설정·백업</button>');top.append(settings);
  }else top.insertAdjacentHTML('beforeend','<button class="btn ghost" data-go="settings" aria-label="설정 및 백업">설정</button>');
  app.prepend(top);
- const key=tab==='sjpt'?`sj:${sjQuestion?.id}`:tab==='quiz'?`quiz:${q?.w?.id}:${q?.actual}:${q?.kind}`:tab;
+ const key=studyViewKey();
  if(key!==mobileLastQuestion){mobileLastQuestion=key;requestAnimationFrame(()=>{window.scrollTo(0,0);top.querySelector('h1')?.focus({preventScroll:true});});}
 }
 function openStudyDialog(kind,image){
@@ -1299,7 +1313,7 @@ function openStudyDialog(kind,image){
  dialog.addEventListener('click',e=>{const b=e.target.closest('button');if(b?.dataset.dialogClose||b?.dataset.go)dialog.close();if(b?.dataset.imageSize){const zoomed=dialog.querySelector('.image-viewport').classList.toggle('zoomed');b.textContent=zoomed?'전체 그림 보기':'더 크게 보기';b.setAttribute('aria-pressed',String(zoomed));}});
 }
 if(typeof window.matchMedia==='function'){
- document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.mobileLearn)openStudyDialog('learn');if(b.dataset.imageZoom)openStudyDialog('image',b.querySelector('img'));if(b.dataset.next||b.dataset.sjNext||b.dataset.new){requestAnimationFrame(()=>window.scrollTo(0,0));}if((b.dataset.sjCheck||b.id==='check')&&window.matchMedia('(max-width:740px)').matches){requestAnimationFrame(()=>document.querySelector('.feedback-result')?.scrollIntoView({block:'start'}));}});
+ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.mobileLearn)openStudyDialog('learn');if(b.dataset.imageZoom)openStudyDialog('image',b.querySelector('img'));if(b.dataset.next||b.dataset.sjNext||b.dataset.new){requestAnimationFrame(()=>window.scrollTo(0,0));}if(b.dataset.showFeedback)document.querySelector('.feedback-result')?.scrollIntoView({block:'center'});});
  window.matchMedia('(max-width:740px)').addEventListener('change',()=>render());
 }
 
